@@ -1,5 +1,5 @@
 {% set name = "cameralink-gateway" %}
-{% set version = "7.0.0git6" %}
+{% set version = "7.0.0+6" %}
 
 package:
   name: {{ name|lower }}
