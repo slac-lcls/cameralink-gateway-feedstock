@@ -7,7 +7,7 @@ package:
 
 source:
   url:  https://pswww.slac.stanford.edu/swdoc/tutorials/{{ name }}-{{ version }}.tar.gz
-  sha256: 38af01a46ae320cf9d3f798d839c6756ea073bce5b5eff5520913970ad3a6562
+  sha256: a3173e702161596fcb709baca7a9658842a4242cb04982459ef656e2c0d1f450
 
 build:
   skip: True  # [win or osx]
