@@ -1,5 +1,5 @@
 {% set name = "cameralink-gateway" %}
-{% set version = "7.5.0" %}
+{% set version = "7.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url:  https://pswww.slac.stanford.edu/swdoc/tutorials/{{ name }}-{{ version }}.tar.gz
-  sha256: fefeb84671319fedacd001b29d94b46f6791f1ca0a34748a76be4bc1c18bd0a3 
+  sha256: 29abc1f287d1f81a7bb943f6de2fc8afac4e0c91aa160b5c1440d83d23aa1ff0 
 
 build:
   skip: True  # [win or osx]
   noarch: python
-  number: 2
+  number: 0
   script:
     - "{{ PYTHON }} -m pip install . -vv"
 
